@@ -1,0 +1,20 @@
+# Ignore PyCharm settings
+.idea/
+
+# Ignore virtual environment
+venv/
+
+# Ignore Python cache
+__pycache__/
+
+# Ignore Jupyter notebook checkpo
+
+# Ignore logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Ignore large datasets or model backups
+*.zip
+*.tar
+*.gz
