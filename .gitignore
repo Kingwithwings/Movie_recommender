@@ -1,4 +1,4 @@
-# Ignore PyCharm settings
+# Ignore PyCharm setting
 .idea/
 
 # Ignore virtual environment
