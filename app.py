@@ -50,7 +50,7 @@ selected_movie = st.selectbox(
 if st.button('Recommend'):
     recommended_movie_names, recommended_movie_posters = recommend(selected_movie)
 
-    # Fixed beta_columns (deprecated) → columns()
+    # beta_columns (deprecated) → columns()
     cols = st.columns(5)
     for idx, col in enumerate(cols):
         with col:
